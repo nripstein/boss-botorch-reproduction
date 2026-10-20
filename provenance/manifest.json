@@ -1,0 +1,61 @@
+{
+  "source_commit": "107a8f1a31f72921703190d4378ddd177c7b8029",
+  "source_working_state": "Copied current working files, including ignored results.",
+  "figures": {
+    "1": "seasonality: seeds 123 and 1-10; 801 oracle points, B80, panels B30/B60",
+    "2": "change point: seed123 B50; B20/B50 prefix splines; published MCMC/grid graphics"
+  },
+  "original_source_sha256": {
+    "examples/seasonality/reproduce_journal_figure1.py": "b72954bcb83419069af494c36d08415abba8c4ffc6e5ac8fdfc1f66ecad840c6",
+    "examples/change_point/run.py": "1042fe77476da3a3633802ff29f6c0f096671a115b046afd8ecda6ac00e74163",
+    "examples/change_point/reproduce_journal_figure.py": "6f6537d7e2c042b94b45922ba8a4425863bd1584a7662f3a8dd10cc37a5b7f06",
+    "BOSS-journal.pdf": "8e00b3627b01b8c7ca6631dfad4466256abd2d4d975d81b7a7cb80a84b6d0feb"
+  },
+  "bundled_sha256": {
+    ".gitignore": "a121992336fd7cd1e1c9bbe8828b07b5e5574795b083b604bb233879e04f6d50",
+    "R/change_point_evaluator.R": "d9936d70c422f757802b554bc7f940803e4b1ae46e14ad42a7281dbcdfbcbed5",
+    "R/seasonality_evaluator.R": "3c7ca8a2081a3f475152acd77b741062309951cf854b93f337f4c4f666eba5b5",
+    "README.md": "e38b8f53fe98c55204c2e662e113edc8c2a7f4419535edbe717d997731d3601d",
+    "data/change_point.rda": "bf23547e8fc34a2fa44e719b1cb8303635b58ddb47040d35e88420230b1d454d",
+    "provenance/original_r_environment.json": "f574f22e35fec5000a8789d8aebc97eb7f467f319dc77c0ed2275da38f29478e",
+    "pyproject.toml": "1deb7804d9483adfdfe37ce1402a1903666359c2170342316390d2d963a908d9",
+    "references/change_point_layer.pdf": "148e77ee3e58592331b1204af7330f937ca7fb9745513cea701cb91cba92a6a2",
+    "references/fig1-journal.png": "e3e71852f4bf657f25b3af126da228be29f18701bea44a0c9f9d5257cd6bc4a0",
+    "references/journal_fig2.png": "27e182f5a154f7b06182d43863ce871098a6871adb74a309c3bb849de35b9eaa",
+    "requirements-lock.txt": "b009de1cb67ef17fd40430d092b28556d52076559548f0f1733b4891d367190f",
+    "results/figure1/aggregate_statistics.csv": "a2183f813483883fdf4ce13a4e3995b0f484cee31f878acda4d08735e17d53b2",
+    "results/figure1/metadata.json": "35e46ed320cc62f4982059c9b94c1b4c1aa046c6e040feb80877f22721105243",
+    "results/figure1/replicate_metrics.csv": "c24754194ed1dbccebed3ee9b153d5e760e01d30422976074f8743bd8d27e09d",
+    "results/figure1/seed_123/density_b30.csv": "c90212457b245f99785cc42300107fae53ca7d736d1f03eaa09f0ecf7ccc47f5",
+    "results/figure1/seed_123/density_b60.csv": "0474152e1fe4ed3672eb42633d07c3f617ff249eac06dd12d4753213222fd3d0",
+    "results/figure1/seed_123/oracle_density.csv": "5da8e2922f7449dc768d9b4755f8c7acbb0265cd8e57540c44d9b23dd50f0f72",
+    "results/figure2/bo_trace.csv": "53a10e217489bafadc53f693b2a8790ac1e18a881f886367a2e219d4ed491344",
+    "results/figure2/run_metadata.json": "65d8ae76d0339cac24848be05ea2f7e063e5cd5826a1ba6e28be3a747a32a851",
+    "scripts/boss-python": "020852ee5d71297e5670c81439c76a6d5f4f5d2161b80ee1cea311455750c56e",
+    "src/boss/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/boss/bo/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/boss/bo/acquisition.py": "271c7853e90ba4440d3a545726a09da5489ef4a666ba2671fcf1c27d2dba94c7",
+    "src/boss/bo/loop.py": "0a0427472758e95db542c2dab64df4ac684e6b2f29d693a82181bbf12837f887",
+    "src/boss/bo/surrogate.py": "96e94b569bdc42fb767412803cc785eaecd43d561fca196a7d017ba5ee016533",
+    "src/boss/bridge/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/boss/bridge/r_session.py": "0da4d44d7ca2f025551cb89a8b63c087e91a1ec99e54d926665b328c5c823908",
+    "src/boss/config.py": "9cd4d50a2b944310fec1df102c61a998886f32bf9f87a31c39a130289559a111",
+    "src/boss/evaluator.py": "81d48ee6b93bcf8ecabc34205b4d4a7cbce07c98b54f3500208bd5de6398b5ba",
+    "src/boss/types.py": "473c1f35fe3dbe2b2a85bb77c64a7bd0317d101de128a5db56dc194317462307",
+    "submission.py": "d3389a06e7ac3511b565700dccd9bcb55f51981de24a7bf83d2a2331e6453e03",
+    "verification/expected/figure1_reproduction.png": "1044f0fb98443fc1fc0b08d6a31782c91cb69f5f83dca549b2d7263753cfd4d9",
+    "verification/expected/figure2_reproduction.png": "f6a0697580be558575bde48a0169b7687cea7fd010ab776cc653763ba586462a",
+    "verification/expected/reproduced_b20.csv": "da9ec03cc9020c2cd0a0fc64b2ced78041479c42971703043d48c30c3fa78a66",
+    "verification/expected/reproduced_b50.csv": "65bd00f3ba39bf3e9926f265fc1e4c5df391474d7d5a515f61cf35f807c26683",
+    "verification/report.json": "a90acf862375e044949d2bda99eceb11011496852ecb40a8101cf76b46e2372e",
+    "verification/smoke.json": "4161ef646c94765fb495414ec550d2d88333daeaa9f70e27ee84b1b69903a385",
+    "verification/tested_r_environment.json": "64f20fd739feefeaadbac8c2235222ed3be628bd7b881d7c0c49d927888e87ea",
+    "verification/verify.py": "c4589ac17f50bb075684a2e3c2b6a5b12120e501ad26dc7879269f61363145ad",
+    "workflows/change_point/spline.R": "b646d41a85d45fda03224839de22792792c1e18d9cdc700b2e2ad1f0d3fbb6c7",
+    "workflows/seasonality/figure.py": "790392805b5b67783987222971e2b8c7d49cff35981a8cfef17da505a00269f5"
+  },
+  "entrypoints": {
+    "figure1": "workflows/seasonality/figure.py",
+    "figure2": "submission.py: change_compute and figure2; workflows/change_point/spline.R"
+  }
+}

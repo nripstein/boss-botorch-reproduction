@@ -1,0 +1,19 @@
+#!/bin/sh
+# Launch Python with one OpenMP runtime shared by PyTorch and R/data.table.
+set -eu
+
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+PYTHON=${BOSS_PYTHON:-"$ROOT/.venv/bin/python"}
+export OMP_NUM_THREADS=${OMP_NUM_THREADS:-1}
+export MKL_NUM_THREADS=${MKL_NUM_THREADS:-1}
+
+if [ "$(uname -s)" = "Darwin" ]; then
+  R_HOME=${R_HOME:-$(R RHOME)}
+  if [ -n "${DYLD_LIBRARY_PATH:-}" ]; then
+    export DYLD_LIBRARY_PATH="$R_HOME/lib:$DYLD_LIBRARY_PATH"
+  else
+    export DYLD_LIBRARY_PATH="$R_HOME/lib"
+  fi
+fi
+
+exec "$PYTHON" "$@"

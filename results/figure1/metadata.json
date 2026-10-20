@@ -1,0 +1,390 @@
+{
+  "illustration_seed": 123,
+  "replicate_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "bo_configs": {
+    "123": {
+      "bounds": [
+        [
+          0.5
+        ],
+        [
+          4.5
+        ]
+      ],
+      "budget": 80,
+      "num_initial": 5,
+      "delta": 0.01,
+      "noise_variance": 1e-06,
+      "initial_lengthscale": 0.1,
+      "initial_outputscale": 1000.0,
+      "hyperparameter_update_every": 5,
+      "hyperparameter_update_schedule": "bo_iterations",
+      "raw_samples": 512,
+      "num_restarts": 20,
+      "fallback_samples": 4096,
+      "duplicate_tolerance": 1e-06,
+      "seed": 123,
+      "mode": "general_botorch",
+      "grid_points": 1000,
+      "sampling_profile": "journal",
+      "lengthscale_fit_restarts": 20,
+      "acquisition_maxiter": 100
+    },
+    "1": {
+      "bounds": [
+        [
+          0.5
+        ],
+        [
+          4.5
+        ]
+      ],
+      "budget": 80,
+      "num_initial": 5,
+      "delta": 0.01,
+      "noise_variance": 1e-06,
+      "initial_lengthscale": 0.1,
+      "initial_outputscale": 1000.0,
+      "hyperparameter_update_every": 5,
+      "hyperparameter_update_schedule": "bo_iterations",
+      "raw_samples": 512,
+      "num_restarts": 20,
+      "fallback_samples": 4096,
+      "duplicate_tolerance": 1e-06,
+      "seed": 1,
+      "mode": "general_botorch",
+      "grid_points": 1000,
+      "sampling_profile": "journal",
+      "lengthscale_fit_restarts": 20,
+      "acquisition_maxiter": 100
+    },
+    "2": {
+      "bounds": [
+        [
+          0.5
+        ],
+        [
+          4.5
+        ]
+      ],
+      "budget": 80,
+      "num_initial": 5,
+      "delta": 0.01,
+      "noise_variance": 1e-06,
+      "initial_lengthscale": 0.1,
+      "initial_outputscale": 1000.0,
+      "hyperparameter_update_every": 5,
+      "hyperparameter_update_schedule": "bo_iterations",
+      "raw_samples": 512,
+      "num_restarts": 20,
+      "fallback_samples": 4096,
+      "duplicate_tolerance": 1e-06,
+      "seed": 2,
+      "mode": "general_botorch",
+      "grid_points": 1000,
+      "sampling_profile": "journal",
+      "lengthscale_fit_restarts": 20,
+      "acquisition_maxiter": 100
+    },
+    "3": {
+      "bounds": [
+        [
+          0.5
+        ],
+        [
+          4.5
+        ]
+      ],
+      "budget": 80,
+      "num_initial": 5,
+      "delta": 0.01,
+      "noise_variance": 1e-06,
+      "initial_lengthscale": 0.1,
+      "initial_outputscale": 1000.0,
+      "hyperparameter_update_every": 5,
+      "hyperparameter_update_schedule": "bo_iterations",
+      "raw_samples": 512,
+      "num_restarts": 20,
+      "fallback_samples": 4096,
+      "duplicate_tolerance": 1e-06,
+      "seed": 3,
+      "mode": "general_botorch",
+      "grid_points": 1000,
+      "sampling_profile": "journal",
+      "lengthscale_fit_restarts": 20,
+      "acquisition_maxiter": 100
+    },
+    "4": {
+      "bounds": [
+        [
+          0.5
+        ],
+        [
+          4.5
+        ]
+      ],
+      "budget": 80,
+      "num_initial": 5,
+      "delta": 0.01,
+      "noise_variance": 1e-06,
+      "initial_lengthscale": 0.1,
+      "initial_outputscale": 1000.0,
+      "hyperparameter_update_every": 5,
+      "hyperparameter_update_schedule": "bo_iterations",
+      "raw_samples": 512,
+      "num_restarts": 20,
+      "fallback_samples": 4096,
+      "duplicate_tolerance": 1e-06,
+      "seed": 4,
+      "mode": "general_botorch",
+      "grid_points": 1000,
+      "sampling_profile": "journal",
+      "lengthscale_fit_restarts": 20,
+      "acquisition_maxiter": 100
+    },
+    "5": {
+      "bounds": [
+        [
+          0.5
+        ],
+        [
+          4.5
+        ]
+      ],
+      "budget": 80,
+      "num_initial": 5,
+      "delta": 0.01,
+      "noise_variance": 1e-06,
+      "initial_lengthscale": 0.1,
+      "initial_outputscale": 1000.0,
+      "hyperparameter_update_every": 5,
+      "hyperparameter_update_schedule": "bo_iterations",
+      "raw_samples": 512,
+      "num_restarts": 20,
+      "fallback_samples": 4096,
+      "duplicate_tolerance": 1e-06,
+      "seed": 5,
+      "mode": "general_botorch",
+      "grid_points": 1000,
+      "sampling_profile": "journal",
+      "lengthscale_fit_restarts": 20,
+      "acquisition_maxiter": 100
+    },
+    "6": {
+      "bounds": [
+        [
+          0.5
+        ],
+        [
+          4.5
+        ]
+      ],
+      "budget": 80,
+      "num_initial": 5,
+      "delta": 0.01,
+      "noise_variance": 1e-06,
+      "initial_lengthscale": 0.1,
+      "initial_outputscale": 1000.0,
+      "hyperparameter_update_every": 5,
+      "hyperparameter_update_schedule": "bo_iterations",
+      "raw_samples": 512,
+      "num_restarts": 20,
+      "fallback_samples": 4096,
+      "duplicate_tolerance": 1e-06,
+      "seed": 6,
+      "mode": "general_botorch",
+      "grid_points": 1000,
+      "sampling_profile": "journal",
+      "lengthscale_fit_restarts": 20,
+      "acquisition_maxiter": 100
+    },
+    "7": {
+      "bounds": [
+        [
+          0.5
+        ],
+        [
+          4.5
+        ]
+      ],
+      "budget": 80,
+      "num_initial": 5,
+      "delta": 0.01,
+      "noise_variance": 1e-06,
+      "initial_lengthscale": 0.1,
+      "initial_outputscale": 1000.0,
+      "hyperparameter_update_every": 5,
+      "hyperparameter_update_schedule": "bo_iterations",
+      "raw_samples": 512,
+      "num_restarts": 20,
+      "fallback_samples": 4096,
+      "duplicate_tolerance": 1e-06,
+      "seed": 7,
+      "mode": "general_botorch",
+      "grid_points": 1000,
+      "sampling_profile": "journal",
+      "lengthscale_fit_restarts": 20,
+      "acquisition_maxiter": 100
+    },
+    "8": {
+      "bounds": [
+        [
+          0.5
+        ],
+        [
+          4.5
+        ]
+      ],
+      "budget": 80,
+      "num_initial": 5,
+      "delta": 0.01,
+      "noise_variance": 1e-06,
+      "initial_lengthscale": 0.1,
+      "initial_outputscale": 1000.0,
+      "hyperparameter_update_every": 5,
+      "hyperparameter_update_schedule": "bo_iterations",
+      "raw_samples": 512,
+      "num_restarts": 20,
+      "fallback_samples": 4096,
+      "duplicate_tolerance": 1e-06,
+      "seed": 8,
+      "mode": "general_botorch",
+      "grid_points": 1000,
+      "sampling_profile": "journal",
+      "lengthscale_fit_restarts": 20,
+      "acquisition_maxiter": 100
+    },
+    "9": {
+      "bounds": [
+        [
+          0.5
+        ],
+        [
+          4.5
+        ]
+      ],
+      "budget": 80,
+      "num_initial": 5,
+      "delta": 0.01,
+      "noise_variance": 1e-06,
+      "initial_lengthscale": 0.1,
+      "initial_outputscale": 1000.0,
+      "hyperparameter_update_every": 5,
+      "hyperparameter_update_schedule": "bo_iterations",
+      "raw_samples": 512,
+      "num_restarts": 20,
+      "fallback_samples": 4096,
+      "duplicate_tolerance": 1e-06,
+      "seed": 9,
+      "mode": "general_botorch",
+      "grid_points": 1000,
+      "sampling_profile": "journal",
+      "lengthscale_fit_restarts": 20,
+      "acquisition_maxiter": 100
+    },
+    "10": {
+      "bounds": [
+        [
+          0.5
+        ],
+        [
+          4.5
+        ]
+      ],
+      "budget": 80,
+      "num_initial": 5,
+      "delta": 0.01,
+      "noise_variance": 1e-06,
+      "initial_lengthscale": 0.1,
+      "initial_outputscale": 1000.0,
+      "hyperparameter_update_every": 5,
+      "hyperparameter_update_schedule": "bo_iterations",
+      "raw_samples": 512,
+      "num_restarts": 20,
+      "fallback_samples": 4096,
+      "duplicate_tolerance": 1e-06,
+      "seed": 10,
+      "mode": "general_botorch",
+      "grid_points": 1000,
+      "sampling_profile": "journal",
+      "lengthscale_fit_restarts": 20,
+      "acquisition_maxiter": 100
+    }
+  },
+  "oracle": {
+    "bounds": [
+      0.5,
+      4.5
+    ],
+    "points": 801,
+    "spacing": 0.005,
+    "normalization": "physical-coordinate trapezoidal integration"
+  },
+  "budgets": [
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80
+  ],
+  "ensemble": "arithmetic mean and numpy linear 10th/90th quantiles; exactly 10 datasets",
+  "journal": {
+    "authors": "Dayi Li and Ziang Zhang",
+    "year": 2026,
+    "doi": "10.1016/j.csda.2025.108253",
+    "reference_PDF_page": 9
+  },
+  "sources": {
+    "simulation": "https://github.com/AgueroZZ/BOSS_website/blob/master/analysis/sim1.Rmd",
+    "BOSS": "https://github.com/AgueroZZ/BOSS_website/blob/master/code/00_BOSS.R"
+  },
+  "python_versions": {
+    "torch": "2.4.1",
+    "botorch": "0.10.0",
+    "gpytorch": "1.11",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3"
+  },
+  "plotting_versions": {
+    "matplotlib": "3.9.4",
+    "pypdf": "6.10.0",
+    "reportlab": "4.4.9",
+    "Pillow": "12.3.0"
+  },
+  "rpy2_version": "3.5.16",
+  "preview_dpi": 300,
+  "duplicate_policy": "distance <=1e-6 normalized; retry once then best unique of 4096 Sobol points",
+  "BO_seed_policy": "port fitting/acquisition streams use dataset seed, independent of R conditional sampling",
+  "source_discrepancies": [
+    "paper 800 vs inclusive code grid 801",
+    "caption means vs source medians",
+    "source appears to include illustrative seed as eleventh dataset",
+    "paper prose B80 vs panel b B60"
+  ],
+  "observed_optimizer_warnings": "Some multistart fits and acquisition optimizations emitted abnormal-line-search warnings; completed GP fits select successful starts and candidate retry/fallback sources are saved.",
+  "timing_semantics": "trace selection_and_fit_seconds includes the LGM fit; aggregate BO_selection_and_GP_seconds subtracts evaluator elapsed_seconds",
+  "expected_LGM_fits": 9691,
+  "pilot_fits_excluded": true
+}

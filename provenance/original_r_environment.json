@@ -1,0 +1,48 @@
+{
+  "fixed": {
+    "intercept": {
+      "prec": 0.001,
+      "mean": 0
+    },
+    "cosx": {
+      "prec": 0.001,
+      "mean": 0
+    },
+    "sinx": {
+      "prec": 0.001,
+      "mean": 0
+    },
+    "cos2x": {
+      "prec": 0.001,
+      "mean": 0
+    },
+    "sin2x": {
+      "prec": 0.001,
+      "mean": 0
+    }
+  },
+  "sd": {
+    "param": {
+      "u": 1,
+      "alpha": 0.5
+    },
+    "prior": "exp"
+  },
+  "sd_rate": 0.6931471805599453,
+  "BayesGP_version": "0.1.3",
+  "RNGkind": [
+    "Mersenne-Twister",
+    "Inversion",
+    "Rejection"
+  ],
+  "R_version": "R version 4.4.1 (2024-06-14)",
+  "package_versions": {
+    "BayesGP": "0.1.3",
+    "TMB": "1.9.19",
+    "aghq": "0.4.3",
+    "Matrix": "1.7.2"
+  },
+  "TMB_SD_prior": "phi=-log(alpha)/u; log(0.5*phi)-phi*exp(-0.5*theta)-0.5*theta",
+  "verified": true,
+  "audit_recovery": "Recovered from the pre-run seed-123 pilot audit after a completed-checkpoint resume overwrote the audit with an empty R list. Dataset and evaluator are identical; no posterior results reused."
+}

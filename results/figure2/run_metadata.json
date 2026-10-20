@@ -1,0 +1,50 @@
+{
+  "bo_config": {
+    "bounds": [
+      [
+        0.1
+      ],
+      [
+        9.9
+      ]
+    ],
+    "budget": 50,
+    "num_initial": 5,
+    "delta": 0.01,
+    "noise_variance": 1e-06,
+    "initial_lengthscale": 0.1,
+    "initial_outputscale": 1000.0,
+    "hyperparameter_update_every": 5,
+    "hyperparameter_update_schedule": "bo_iterations",
+    "raw_samples": 512,
+    "num_restarts": 50,
+    "fallback_samples": 4096,
+    "duplicate_tolerance": 1e-06,
+    "seed": 123,
+    "sampling_profile": "journal",
+    "lengthscale_fit_restarts": 50,
+    "mode": "general_botorch",
+    "grid_points": 1000
+  },
+  "sampling_only": true,
+  "density_method": "GP posterior mean",
+  "center_offset": -203.55424656985485,
+  "r_diagnostics": {
+    "initialization_count": 1,
+    "evaluation_count": 50,
+    "dll_loaded": true,
+    "bounds": [
+      0.1,
+      9.9
+    ],
+    "prior_bounds": [
+      0.0,
+      10.0
+    ],
+    "basis_k": 30,
+    "inner_aghq_k": 3,
+    "release_faithful": false
+  },
+  "oracle_kind": "computed",
+  "initial_fit_observation_count": 5
+}

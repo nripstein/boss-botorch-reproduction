@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "seasonality_resume": true,
+  "checkpoint_mismatch_rejected": true,
+  "full_scientific_rerun": false
+}

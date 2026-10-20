@@ -1,0 +1,31 @@
+{
+  "figure1": {
+    "shape": [
+      2100,
+      2700,
+      3
+    ],
+    "pixel_identical": true,
+    "mean_absolute_RGB_difference": 0.0,
+    "different_pixels": 0
+  },
+  "figure2": {
+    "shape": [
+      1270,
+      2400,
+      3
+    ],
+    "pixel_identical": false,
+    "mean_absolute_RGB_difference": 8.639545056867891e-05,
+    "different_pixels": 27
+  },
+  "splines_match": true,
+  "full_scientific_recomputation": false,
+  "clean_clone_plot": true,
+  "clean_clone_smoke": true,
+  "seasonality_aggregates_recomputed": true,
+  "overwrite_protections": true,
+  "original_repository_git_status_unchanged": true,
+  "validation_environment": "Existing Python 3.10 scientific runtime and R 4.4.1; bundled pure-Python PDF dependencies appended. Clean installation not tested.",
+  "rendering_difference_explanation": "Figure 2 applies the overlay after cropping, changing affine rounding and rasterization of a small number of pixels; numerical spline values match to 1e-12."
+}
