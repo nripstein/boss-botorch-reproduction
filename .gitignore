@@ -4,3 +4,7 @@ __pycache__/
 output/
 runs/
 tmp/
+.DS_Store
+.pytest_cache/
+.Rhistory
+.RData
